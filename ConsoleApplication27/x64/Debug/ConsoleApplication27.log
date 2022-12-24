@@ -1,0 +1,17 @@
+﻿  Assem.cpp
+  Assembler.cpp
+  Emulator.cpp
+C:\Users\Javets\source\repos\ConsoleApplication27\Emulator.cpp(16,32): warning C4244: '=': conversion from '__int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  Errors.cpp
+  FileAccess.cpp
+  Instruction.cpp
+  stdafx.cpp
+  SymTab.cpp
+  Generating Code...
+C:\Users\Javets\source\repos\ConsoleApplication27\SymTab.cpp(64): warning C4715: 'SymbolTable::LookupSymbol': not all control paths return a value
+Errors.obj : error LNK2001: unresolved external symbol "private: static class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > Errors::m_ErrorMsgs" (?m_ErrorMsgs@Errors@@0V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@A)
+C:\Users\Javets\source\repos\ConsoleApplication27\x64\Debug\ConsoleApplication27.exe : fatal error LNK1120: 1 unresolved externals
